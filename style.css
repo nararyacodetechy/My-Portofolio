@@ -1,0 +1,543 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#pages {
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(0, 18, 41); */
+}
+
+#pages video {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    object-fit: cover;
+}
+
+#pages .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+
+#pages .container .col-left {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+#pages .container .col-left p {
+    color: #fff;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pages .container .col-left p.porto {
+    font-size: 60px;
+    text-shadow: 2px 2px 2px black;
+}
+
+#pages .container .col-left p.creative {
+    font-size: 28px;
+    letter-spacing: 3.3px;
+    text-shadow: 2px 2px 2px black;
+}
+
+#pages .container .col-left .download {
+    width: 150px;
+    height: 40px;
+    background-color: #574BCA;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 430px;
+    box-shadow: 5px 5px 15px black;
+    text-decoration: none;
+}
+
+#pages .container .col-left .download:hover {
+    background-color: #887cf5;
+}
+
+#pages .container .col-left .download b {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#pages .container .col-right {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+/* Portofolio */
+.portofolio {
+    width: 450px;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px black;
+    background-color: #574BCA;
+}
+/* Left Protofolio */
+.portofolio .left-porto {
+    float: left;
+    display: block;
+    width: 45%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.portofolio .left-porto .photo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    border-radius: 4px 0px 50% 50%;
+    box-shadow: 0 2px #453aa1;
+    padding: 20px;
+}
+
+.portofolio .left-porto .photo img {
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+}
+
+.portofolio .left-porto .media-social {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portofolio .left-porto .media-social .content {
+    display: block;
+}
+
+.portofolio .left-porto .media-social .content .line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.portofolio .left-porto .media-social .content .line .icon {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portofolio .left-porto .media-social .content .line .icon i {
+    font-size: 10px;
+    color: #453aa1;
+}
+
+.portofolio .left-porto .media-social .content .line a {
+    font-size: 10px;
+    color: rgb(248, 234, 200);
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.portofolio .left-porto .education {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: block;
+}
+
+.portofolio .left-porto .education .title {
+    float: right;
+    width: 170px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50px 0 0 0;
+}
+
+.portofolio .left-porto .education .title .wrapper {
+    height: auto;
+    padding-top: 1.5px;
+    float: right;
+    padding-right: 0px;
+}
+
+.portofolio .left-porto .education .title .wrapper p {
+    font-size: 12px;
+    color: #574BCA;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.portofolio .left-porto .education .content {
+    padding: 20px;
+}
+
+.portofolio .left-porto .education .content .line {
+    display: block;
+    margin-top: 10px;
+}
+
+.portofolio .left-porto .education .content .line b {
+    color: goldenrod;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.portofolio .left-porto .education .content .line p {
+    color: rgb(248, 234, 200);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+.portofolio .left-porto .skills {
+    width: 100%;
+    height: auto;
+    border-radius: 0 0 0 4px;
+}
+
+.portofolio .left-porto .skills .title {
+    float: right;
+    width: 170px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50px 0 0 0;
+}
+
+.portofolio .left-porto .skills .title .wrapper {
+    height: 100%;
+    padding-top: 1.5px;
+    float: right;
+    padding-right: 0px;
+}
+
+.portofolio .left-porto .skills .title .wrapper p {
+    font-size: 12px;
+    color: #574BCA;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.portofolio .left-porto .skills .content {
+    width: 100%;
+    height: 100%;
+    padding: 30px 20px 20px 20px;
+    display: block;
+}
+
+.portofolio .left-porto .skills .content .line {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.portofolio .left-porto .skills .content .line .inline {
+    float: left;
+    width: 60%;
+    margin-bottom: 5px;
+}
+
+.portofolio .left-porto .skills .content .line .inline p{
+    font-size: 12px;
+    color: rgb(248, 234, 200);
+}
+
+.portofolio .left-porto .skills .content .line .rate {
+    float: right;
+    width: 40%;
+}
+
+.portofolio .left-porto .skills .content .line .rate .box {
+    width: 100%;
+    height: 100%;
+    background-color: goldenrod;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.rate .box .web {
+    background-color: #fff;
+    height: 5px;
+    width: 60%;
+}
+
+.rate .box .android {
+    background-color: #fff;
+    height: 5px;
+    width: 10%;
+}
+
+.rate .box .design {
+    background-color: #fff;
+    height: 5px;
+    width: 50%;
+}
+
+.rate .box .english {
+    background-color: #fff;
+    height: 5px;
+    width: 30%;
+}
+
+/* Right-Portofolio */
+.portofolio .right-porto {
+    float: right;
+    width: 55%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.portofolio .right-porto .name{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: #574BCA;
+    border-radius: 0 0 50px 0;
+    box-shadow: 0 2px #453aa1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portofolio .right-porto .name .content {
+    display: block;
+}
+
+.portofolio .right-porto .name .content b {
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.portofolio .right-porto .name .content p {
+    float: right;
+    margin-right: 45px;
+    color: antiquewhite;
+    font-size: 10px;
+    letter-spacing: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2px;
+}
+
+.portofolio .right-porto .variation {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portofolio .right-porto .variation .line {
+    background-color: #574BCA;
+    margin-top: 10px;
+    width: 140px;
+    height: 10px;
+    border-radius: 0 50px 0 50px;
+}
+
+.portofolio .right-porto .profile {
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+}
+
+.portofolio .right-porto .profile .about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2.5px dashed #453aa1;
+    padding: 6.5px 0 2px 0;
+}
+
+.portofolio .right-porto .profile .about-me b {
+    color: #574BCA;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.portofolio .right-porto .profile .list {
+    display: block;
+    padding: 9px 0 9.5px 0;
+}
+
+.portofolio .right-porto .profile .list .line {
+    display: flex;
+}
+
+.portofolio .right-porto .profile .list .line b {
+    color: #453aa1;
+    width: 40%;
+    float: left;
+    font-size: 12px;
+}
+
+.portofolio .right-porto .profile .list .line p {
+    color: #887cf5;
+    width: 60%;
+    float: right;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.portofolio .right-porto .title {
+    float: left;
+    width: 170px;
+    height: 20px;
+    background-color: #574BCA;
+    border-radius: 0 50px 0 0;
+}
+
+.portofolio .right-porto .title .wrapper {
+    height: 100%;
+    padding-top: 1.5px;
+    float: left;
+    padding-right: 10px;
+}
+
+.portofolio .right-porto .title .wrapper p {
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 4px;
+}
+
+.portofolio .right-porto .work {
+    width: 100%;
+    height: auto;
+}
+.portofolio .right-porto .work .content {
+    margin: 26px 10px 12px 10px;
+}
+
+.portofolio .right-porto .work .content .box {
+    display: block;
+}
+
+.portofolio .right-porto .work .content .box .titles {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.portofolio .right-porto .work .content .box .titles .cirle {
+    width: 10px;
+    height: auto;
+    margin-right: 5px;
+    display: flex;
+}
+
+.portofolio .right-porto .work .content .box .titles .cirle .bullet {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #574BCA;
+}
+
+.portofolio .right-porto .work .content .box .titles .view {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.portofolio .right-porto .work .content .box .titles .skills {
+    float: left;
+}
+
+.portofolio .right-porto .work .content .box .titles .skills b {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: #453aa1;
+}
+
+.portofolio .right-porto .work .content .box .titles .date {
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+.portofolio .right-porto .work .content .box .titles .date b {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.portofolio .right-porto .work .content .box .description {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.portofolio .right-porto .work .content .box .description .height-line {
+    width: 25px;
+    height: auto;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portofolio .right-porto .work .content .box .description .height-line .line {
+    width: 2px;
+    height: 70px;
+    background-color: #574BCA;
+}
+
+.portofolio .right-porto .work .content .box .description .text {
+    float: right;
+    display: block;
+}
+
+.portofolio .right-porto .work .content .box .description .text .company {
+    display: flex;
+    align-items: center;
+}
+
+.portofolio .right-porto .work .content .box .description .text .company p {
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: #453aa1;
+}
+
+.portofolio .right-porto .work .content .box .description .text .desk p {
+    padding-top: 5px;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #574BCA;
+}
