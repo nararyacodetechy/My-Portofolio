@@ -541,3 +541,76 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #574BCA;
 }
+
+.portofolio .right-porto .tools {
+    width: 100%;
+    height: 21.3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portofolio .right-porto .tools .content {
+    display: block;
+    width: 100%;
+}
+
+.portofolio .right-porto .tools .content .list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portofolio .right-porto .tools .content .list .tool {
+    width: 100%;
+    height: auto;
+    margin: 5px 10px;
+}
+
+.portofolio .right-porto .tools .content .list .tool p {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.portofolio .right-porto .tools .content .list .tool .point {
+    width: 100%;
+    height: 5px;
+    background-color: rgb(226, 196, 156);
+}
+
+.portofolio .right-porto .tools .content .list .tool .point .rate-1 {
+    width: 80%;
+    background-color: goldenrod;
+    height: 100%;
+}
+
+.portofolio .right-porto .tools .content .list .tool .point .rate-2 {
+    width: 40%;
+    background-color: goldenrod;
+    height: 100%;
+}
+
+.portofolio .right-porto .tools .content .list .tool .point .rate-3 {
+    width: 10%;
+    background-color: goldenrod;
+    height: 100%;
+}
+
+.portofolio .right-porto .tools .content .list .tool .point .rate-4 {
+    width: 65%;
+    background-color: goldenrod;
+    height: 100%;
+}
+
+.portofolio .right-porto .tools .content .list .tool .point .rate-5 {
+    width: 90%;
+    background-color: goldenrod;
+    height: 100%;
+}
+
+.portofolio .right-porto .tools .content .list .tool .point .rate-6 {
+    width: 80%;
+    background-color: goldenrod;
+    height: 100%;
+}
