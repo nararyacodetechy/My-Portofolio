@@ -322,12 +322,13 @@
     border-radius: 0 0 50px 0;
     box-shadow: 0 2px #453aa1;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
 .portofolio .right-porto .name .content {
     display: block;
+    float: left;
+    left: 0;
 }
 
 .portofolio .right-porto .name .content b {
@@ -338,11 +339,10 @@
 }
 
 .portofolio .right-porto .name .content p {
-    float: right;
-    margin-right: 45px;
+    text-align: center;
     color: antiquewhite;
     font-size: 10px;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 2px;
 }
